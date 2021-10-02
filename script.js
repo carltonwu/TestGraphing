@@ -63,6 +63,8 @@ input.addEventListener('change', () => {
               yaxis: {
                 title:'Meters/Seconds^2'
               }
+        }, {
+              responsive: true
         });
 
         setInterval(function() {
